@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: One edit apart
+# difficulty: Medium
+# leetcode_num: 
+# leetcode_url: 
+#
 # Given two strings S and T, determine if they are both one edit distance apart.
 
 

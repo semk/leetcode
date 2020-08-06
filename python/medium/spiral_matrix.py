@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Spiral Matrix
+# difficulty: Medium
+# leetcode_num: 54
+# leetcode_url: https://leetcode.com/problems/spiral-matrix/
+#
 # Given a positive integer n, generate a square matrix filled with elements
 # from 1 to n2 in spiral order.
 #

@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+#
+# description: Passing Yearbooks
+# difficulty: Hard
+# leetcode_num: 
+# leetcode_url: 
 
 
 class UF:

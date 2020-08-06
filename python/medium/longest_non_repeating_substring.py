@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Longest Substring Without Repeating Characters
+# difficulty: Medium
+# leetcode_num: 3
+# leetcode_url: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+#
 # Given a string, find the length of the longest substring without repeating
 # characters.
 #

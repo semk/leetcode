@@ -1,3 +1,8 @@
+// description: Pascal's Triangle
+// difficulty: Easy
+// leetcode_num: 118
+// leetcode_url: https://leetcode.com/problems/pascals-triangle/
+
 package main
 
 import "fmt"

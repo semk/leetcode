@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Symmetric Tree
+# difficulty: Easy
+# leetcode_num: 101
+# leetcode_url: https://leetcode.com/problems/symmetric-tree/
+#
 # Given a binary tree, check whether it is a mirror of itself
 # (ie, symmetric around its center).
 #

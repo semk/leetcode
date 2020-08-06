@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Max Consecutive Ones
+# difficulty: Easy
+# leetcode_num: 485
+# leetcode_url: https://leetcode.com/problems/max-consecutive-ones/
+#
 # Given an array A of 0s and 1s, we may change up to K values from 0 to 1.
 #
 # Return the length of the longest (contiguous) subarray that contains only 1s.

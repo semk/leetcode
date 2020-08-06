@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+#
+# description: Evaluate arithmetic expression
+# difficulty: Medium
+# leetcode_num: 
+# leetcode_url: 
 
 
 def EvaluateExpression(exp):

@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Queens That Can Attack the King
+# difficulty: Medium
+# leetcode_num: 1222
+# leetcode_url: https://leetcode.com/problems/queens-that-can-attack-the-king/
+#
 # On an 8x8 chessboard, there can be multiple Black Queens and one White King.
 #
 # Given an array of integer coordinates queens that represents the positions

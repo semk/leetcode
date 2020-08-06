@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+#
+# description: Check if words are sorted
+# difficulty: Medium
+# leetcode_num: 
+# leetcode_url: 
 
 
 def AreWordsSorted(words, alphabet):

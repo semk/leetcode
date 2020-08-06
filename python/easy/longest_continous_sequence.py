@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Longest Continuous Increasing Subsequence
+# difficulty: Easy
+# leetcode_num: 674
+# leetcode_url: https://leetcode.com/problems/longest-continuous-increasing-subsequence
+#
 # Given an unsorted array of integers, find the length of longest continuous
 # increasing subsequence (subarray).
 #

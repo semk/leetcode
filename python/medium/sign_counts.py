@@ -1,14 +1,9 @@
 #!/usr/bin/env python
-
-
-def reverseCompare(array1, array2, left, right):
-    mid = (left + right) // 2
-    while left <= mid:
-        if array1[left] != array2[right]:
-            return False
-        left += 1
-        right -= 1
-    return True
+#
+# description: Passing Yearbooks
+# difficulty: Medium
+# leetcode_num: 
+# leetcode_url: 
 
 
 def FindSignatureCounts(bookHolders):

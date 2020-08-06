@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-
+#
+# description: Reverse Compare
+# difficulty: Medium
+# leetcode_num: 
+# leetcode_url: 
 
 def AreTheyEqual(array1, array2):
     if len(array1) != len(array2):

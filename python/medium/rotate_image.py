@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Rotate Image
+# difficulty: Medium
+# leetcode_num: 48
+# leetcode_url: https://leetcode.com/problems/rotate-image/
+#
 # You are given an n x n 2D matrix representing an image.
 #
 # Rotate the image by 90 degrees (clockwise).

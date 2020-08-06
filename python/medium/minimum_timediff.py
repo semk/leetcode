@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Minimum Time Difference
+# difficulty: Medium
+# leetcode_num: 539
+# leetcode_url: https://leetcode.com/problems/minimum-time-difference/
+#
 # Given a list of 24-hour clock time points in "Hour:Minutes" format, find
 # the minimum minutes difference between any two time points in the list.
 #

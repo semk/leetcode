@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Find All Anagrams in a String
+# difficulty: Medium
+# leetcode_num: 438
+# leetcode_url: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+#
 # Given a string s and a non-empty string p, find all the start indices of
 # p's anagrams in s.
 #

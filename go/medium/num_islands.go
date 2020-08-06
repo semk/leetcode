@@ -1,3 +1,8 @@
+// description: Number of Islands
+// difficulty: Medium
+// leetcode_num: Number of Islands
+// leetcode_url: https://leetcode.com/problems/number-of-islands/
+
 package main
 
 import "fmt"

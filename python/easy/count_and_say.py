@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 #
+# description: Count and Say
+# difficulty: Easy
+# leetcode_num: 38
+# leetcode_url: https://leetcode.com/problems/count-and-say/
+#
+#
 # The count-and-say sequence is the sequence of integers with the first
 # five terms as following:
 # 1.     1

@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Product of Array Except Self
+# difficulty: Medium
+# leetcode_num: 238
+# leetcode_url: https://leetcode.com/problems/product-of-array-except-self/
+#
 # Given an array nums of n integers where n > 1,  return an array output
 # such that output[i] is equal to the product of all the elements of nums
 # except nums[i].

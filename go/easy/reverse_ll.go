@@ -1,3 +1,8 @@
+// description: Reverse Linked List
+// difficulty: Easy
+// leetcode_num: 206
+// leetcode_url: https://leetcode.com/problems/reverse-linked-list/
+
 package main
 
 import "fmt"

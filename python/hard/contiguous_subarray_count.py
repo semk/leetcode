@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Count contiguous subarrays
+# difficulty: Hard
+# leetcode_num: 
+# leetcode_url: https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays
+#
 # You are given an array a of N integers. For each index i, you are required
 # to determine the number of contiguous subarrays that fulfills the following
 # conditions:

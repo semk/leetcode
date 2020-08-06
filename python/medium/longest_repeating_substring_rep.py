@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Longest Repeating Character Replacement
+# difficulty: Medium
+# leetcode_num: 424
+# leetcode_url: https://leetcode.com/problems/longest-repeating-character-replacement/
+#
 # Given a string s that consists of only uppercase English letters, you can
 # perform at most k operations on that string.
 #

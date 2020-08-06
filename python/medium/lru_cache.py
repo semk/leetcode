@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: LRU Cache
+# difficulty: Medium
+# leetcode_num: 146
+# leetcode_url: https://leetcode.com/problems/lru-cache/
+#
 # Design and implement a data structure for Least Recently Used (LRU) cache.
 # It should support the following operations: get and put.
 #

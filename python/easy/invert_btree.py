@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 #
+# description: Invert Binary Tree
+# difficulty: Easy
+# leetcode_num: 226
+# leetcode_url: https://leetcode.com/problems/invert-binary-tree/
+#
 # Invert a binary tree.
 #
 # Example:
