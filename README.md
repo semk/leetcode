@@ -1,7 +1,7 @@
 # leetcode
 Solutions to the various *leetcode* coding problems (algorithms &amp; data structures) categorised by their difficulty (easy | medium | hard). Solutions in Python &amp; Go)
 
-# Problems & Solutions
+### Problems & Solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./python/easy/count_and_say.py)|Easy|
