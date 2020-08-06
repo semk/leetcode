@@ -33,6 +33,6 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./python/easy/longest_consecutive_ones_rep.py) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./python/easy/invert_btree.py) | Easy |
 |  | [Fibonacci]() | [Python](./python/easy/fibonacci.py) | Easy |
-| Number of Islands | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](./go/medium/num_islands.go) | Medium |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](./go/medium/num_islands.go) | Medium |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Go](./go/easy/reverse_ll.go) | Easy |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Go](./go/easy/pascal_triangle.go) | Easy |
