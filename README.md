@@ -6,11 +6,11 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./python/medium/lru_cache.py) | Medium |
-|  | [Check if words are sorted]() | [Python](./python/medium/check_words_sorted.py) | Medium |
+|  | [Check If Words Are Sorted Using Given Albhabet]() | [Python](./python/medium/check_words_sorted.py) | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./python/medium/array_product.py) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./python/medium/longest_non_repeating_substring.py) | Medium |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./python/medium/longest_repeating_substring_rep.py) | Medium |
-|  | [Evaluate arithmetic expression]() | [Python](./python/medium/evaluate_arithmetic_expression.py) | Medium |
+|  | [Evaluate Arithmetic Expression]() | [Python](./python/medium/evaluate_arithmetic_expression.py) | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./python/medium/rotate_image.py) | Medium |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./python/medium/partition_labels.py) | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./python/medium/find_anagrams.py) | Medium |
@@ -18,11 +18,11 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 |  | [Passing Yearbooks]() | [Python](./python/medium/sign_counts.py) | Medium |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 |  | [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |
-|  | [One edit apart]() | [Python](./python/medium/one_edit_distance.py) | Medium |
+|  | [One Edit Distance]() | [Python](./python/medium/one_edit_distance.py) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./python/medium/longest_palindromic_substring.py) | Medium |
 | 1222 | [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [Python](./python/medium/attacking_queens.py) | Medium |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./python/medium/minimum_timediff.py) | Medium |
-|  | [Count contiguous subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
+|  | [Count Contiguous Subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
 |  | [Passing Yearbooks]() | [Python](./python/hard/sign_counts.py) | Hard |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./python/easy/max_profit.py) | Easy |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [Python](./python/easy/longest_continous_sequence.py) | Easy |

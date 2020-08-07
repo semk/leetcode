@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# description: Check if words are sorted
+# description: Check If Words Are Sorted Using Given Albhabet
 # difficulty: Medium
 # leetcode_num: 
 # leetcode_url: 

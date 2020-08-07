@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# description: Count contiguous subarrays
+# description: Count Contiguous Subarrays
 # difficulty: Hard
 # leetcode_num: 
 # leetcode_url: https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays

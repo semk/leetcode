@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# description: One edit apart
+# description: One Edit Distance
 # difficulty: Medium
 # leetcode_num: 
 # leetcode_url: 

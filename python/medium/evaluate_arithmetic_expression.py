@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# description: Evaluate arithmetic expression
+# description: Evaluate Arithmetic Expression
 # difficulty: Medium
 # leetcode_num: 
 # leetcode_url: 
