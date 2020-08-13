@@ -38,7 +38,6 @@ def GetAttackingQueensCoordinates(queens, king):
     
     attackingQueuens = []
     directions = (-1, 0, 1)
-    kingx, kingy = king
     for dx in directions:
         for dy in directions:
             if dx == 0 and dy == 0:
@@ -46,7 +45,7 @@ def GetAttackingQueensCoordinates(queens, king):
            
             x, y = king
             while (x + dx < 8 and x + dx > 0 and y + dy < 8 and y + dy > 0):
-                x, y = kingx + dx, kingy + dy
+                x, y = x + dx, y + dy
                 if queenAtIndex[x][y]:
                     attackingQueuens.append((x, y))
                     break
