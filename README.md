@@ -32,8 +32,9 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./python/easy/symmetric_btree.py) | Easy |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./python/easy/merge_btrees.py) | Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./python/easy/longest_consecutive_ones_rep.py) | Easy |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./python/easy/climbing_stairs.py) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./python/easy/invert_btree.py) | Easy |
-|  | [Fibonacci]() | [Python](./python/easy/fibonacci.py) | Easy |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./python/easy/fibonacci.py) | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](./go/medium/num_islands.go) | Medium |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Go](./go/easy/reverse_ll.go) | Easy |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Go](./go/easy/pascal_triangle.go) | Easy |
