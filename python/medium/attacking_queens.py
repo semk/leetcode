@@ -32,12 +32,6 @@
 # The queen at [0,4] can't attack the king cause it's blocked by the queen at [0,1].
 # The queen at [4,0] can't attack the king cause it's blocked by the queen at [1,0].
 # The queen at [2,4] can't attack the king cause it's not in the same row/column/diagnal as the king.
-#
-#
-# Example 2:
-#
-# Input: queens = [[0,0],[1,1],[2,2],[3,4],[3,5],[4,4],[4,5]], king = [3,3]
-# Output: [[2,2],[3,4],[4,4]]
 
 
 def GetAttackingQueensCoordinates(queens, king):

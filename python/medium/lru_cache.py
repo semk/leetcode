@@ -56,6 +56,7 @@ class CacheOrder:
         self.head.next = node
         node.next = head_next
         node.prev = self.head
+        head_next.prev = node
 
     def remove(self, node):
         node_prev = node.prev
@@ -80,8 +81,9 @@ class LRUCache:
         else:
             node = Node(key, value)
             if len(self.cache) == self.cacpacity:
-                self.cache.pop(key)
-                self.order.remove(self.order.tail.prev)
+                lru = self.order.tail.prev
+                self.order.remove(lru)
+                self.cache.pop(lru.key)
             
             self.cache[key] = node
             self.order.add(node)
@@ -94,3 +96,16 @@ class LRUCache:
             return node.value
         else:
             return -1
+
+
+if __name__ == '__main__':
+    cache = LRUCache(2)
+    cache.put(1, 1)
+    cache.put(2, 2)
+    assert cache.get(1) == 1, "Test Failed. Expected 1"
+    cache.put(3, 3)
+    assert cache.get(2) == -1, "Test Failed. Expected -1"
+    cache.put(4, 4)
+    assert cache.get(1) == -1, "Test Failed. Expected -1"
+    assert cache.get(3) == 3, "Test Failed. Expected 3"
+    assert cache.get(4) == 4, "Test Failed. Expected 4"
