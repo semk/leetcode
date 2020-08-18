@@ -31,11 +31,11 @@
 
 
 def NumWaysToClimbStairs(stairs):
-    num_ways_prev, num_ways_current = 1, 1
+    prev, cur = 0, 1
     for _ in range(stairs):
-        num_ways_prev, num_ways_current = num_ways_current, num_ways_prev + num_ways_current
-    
-    return num_ways_prev
+        prev, cur = cur, prev + cur
+
+    return cur
 
 
 if __name__ == '__main__':

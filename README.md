@@ -7,10 +7,12 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 |---| ----- | -------- | ---------- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./python/medium/lru_cache.py) | Medium |
 |  | [Check If Words Are Sorted Using Given Albhabet]() | [Python](./python/medium/check_words_sorted.py) | Medium |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./python/medium/find_all_duplicates.py) | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./python/medium/array_product.py) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./python/medium/longest_non_repeating_substring.py) | Medium |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./python/medium/longest_repeating_substring_rep.py) | Medium |
 |  | [Evaluate Arithmetic Expression]() | [Python](./python/medium/evaluate_arithmetic_expression.py) | Medium |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](./python/medium/find_duplicate.py) | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./python/medium/rotate_image.py) | Medium |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./python/medium/partition_labels.py) | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./python/medium/find_anagrams.py) | Medium |
@@ -20,6 +22,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 |  | [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |
 |  | [One Edit Distance]() | [Python](./python/medium/one_edit_distance.py) | Medium |
+| 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./python/medium/make_valid_parentheses.py) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./python/medium/longest_palindromic_substring.py) | Medium |
 | 1222 | [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [Python](./python/medium/attacking_queens.py) | Medium |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./python/medium/minimum_timediff.py) | Medium |
