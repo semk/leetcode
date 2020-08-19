@@ -15,6 +15,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](./python/medium/find_duplicate.py) | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./python/medium/rotate_image.py) | Medium |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./python/medium/partition_labels.py) | Medium |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Python](./python/medium/max_width_btree.py) | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./python/medium/find_anagrams.py) | Medium |
 |  | [Reverse Compare]() | [Python](./python/medium/reverse_equal.py) | Medium |
 |  | [Passing Yearbooks]() | [Python](./python/medium/sign_counts.py) | Medium |
