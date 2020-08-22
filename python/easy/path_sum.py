@@ -35,15 +35,12 @@ def hasPathSum(node, req_sum, current_sum):
     if not node.left and not node.right and current_sum == req_sum:
         return True
 
-    hasSum = False
-    if node.left:
-        hasSum = hasSum or hasPathSum(
-            node.left, req_sum, current_sum + node.left.value)
-    if node.right:
-        hasSum = hasSum or hasPathSum(
-            node.right, req_sum, current_sum + node.right.value)
+    if node.left and hasPathSum(node.left, req_sum, current_sum + node.left.value):
+        return True
+    if node.right and hasPathSum(node.right, req_sum, current_sum + node.right.value):
+        return True
 
-    return hasSum
+    return False
 
 
 def HasPathSum(root, req_sum):
@@ -86,3 +83,4 @@ if __name__ == '__main__':
         t, num = tc
         tree = build_tree(t, 0)
         assert HasPathSum(tree, num), 'Test Failed'
+        assert HasPathSumRecursive(tree, num), 'Test Failed'
