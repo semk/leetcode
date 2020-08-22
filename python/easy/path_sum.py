@@ -75,8 +75,8 @@ if __name__ == '__main__':
             return n
 
     test_cases = [
-        (([(True, 5), (True, 4), (True, 8), (True, 11), (False, -1), (True, 13), (True, 4),
-           (True, 7), (True, 2), (False, -1), (False, -1), (False, -1), (True, 1)], 22), True)
+        (([(True, 5), (True, 4), (True, 8), (True, 11), (False, -1), (True, 13), (True, 4), (True, 7),
+           (True, 2), (False, -1), (False, -1), (False, -1), (False, -1), (True, 5), (True, 1)], 22), True)
     ]
 
     for tc, res in test_cases:
