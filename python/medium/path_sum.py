@@ -29,6 +29,25 @@
 # ]
 
 
+def FindPathsRecursive(node, req_sum):
+    paths = []
+    findPaths(node, req_sum, paths, [node.value])
+    return paths
+
+
+def findPaths(node, req_sum, paths, current_path):
+    if not node:
+        return
+
+    if not node.left and not node.right and sum(current_path) == req_sum:
+        paths.append(current_path)
+
+    if node.left:
+        findPaths(node.left, req_sum, paths, current_path + [node.left.value])
+    if node.right:
+        findPaths(node.right, req_sum, paths, current_path + [node.right.value])
+
+
 def FindPaths(root, req_sum):
     if not root:
         return []
@@ -70,3 +89,4 @@ if __name__ == '__main__':
         t, num = tc
         tree = build_tree(t, 0)
         assert FindPaths(tree, num) == [[5, 8, 4, 5], [5, 4, 11, 2]], 'Test Failed'
+        assert FindPathsRecursive(tree, num) == [[5, 4, 11, 2], [5, 8, 4, 5]], 'Test Failed'

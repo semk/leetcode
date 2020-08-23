@@ -25,13 +25,13 @@
 
 
 def HasPathSumRecursive(root, req_sum):
-    if not root:
-        return False
-
-    return hasPathSum(root, req_sum, root.value)
+    return hasPathSum(root, req_sum, 0)
 
 
 def hasPathSum(node, req_sum, current_sum):
+    if not node:
+        return False
+
     if not node.left and not node.right and current_sum == req_sum:
         return True
 
