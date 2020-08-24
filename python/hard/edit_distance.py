@@ -65,14 +65,16 @@ def MinEditDistance(source, dest):
         for j in range(n+1):
             if i == 0:
                 dist[i][j] = j
-            
-            if j == 0:
+            elif j == 0:
                 dist[i][j] = i
-
-            if source[i-1] == dest[j-1]:
-                dist[i][j] = dist[i-1][j-1]
+            elif source[i-1] == dest[j-1]:
+                dist[i][j] = dist[i-1][j-1] # No edits
             else:
-                dist[i][j] = 1 + min(dist[i][j-1], dist[i-1][j], dist[i-1][j-1])
+                dist[i][j] = 1 + min(
+                    dist[i][j-1],   # Character addition
+                    dist[i-1][j],   # Charater removal
+                    dist[i-1][j-1]  # Charater replacement
+                )
 
     return dist[m][n]
 
