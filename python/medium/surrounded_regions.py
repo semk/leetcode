@@ -63,11 +63,11 @@ def markBorder(grid, i, j):
 
     if i > 0 and grid[i-1][j] == 'O':
         markBorder(grid, i-1, j)
-    if i < len(grid) -1 and grid[i+1][j]:
+    if i < len(grid)-1 and grid[i+1][j]:
         markBorder(grid, i+1, j)
     if j > 0 and grid[i][j+1] == 'O':
         markBorder(grid, i, j+1)
-    if j < len(grid[0]) - 1 and grid[i][j+1] == 'O':
+    if j < len(grid[0])-1 and grid[i][j+1] == 'O':
         markBorder(grid, i, j-1)
 
 
