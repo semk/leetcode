@@ -31,6 +31,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./python/medium/minimum_timediff.py) | Medium |
 |  | [Count Contiguous Subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/hard/sign_counts.py) | Hard |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./python/hard/edit_distance.py) | Hard |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./python/easy/path_sum.py) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./python/easy/max_profit.py) | Easy |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [Python](./python/easy/longest_continous_sequence.py) | Easy |
