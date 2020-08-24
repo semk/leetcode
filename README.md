@@ -9,6 +9,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./python/medium/lru_cache.py) | Medium |
 |  | [Check If Words Are Sorted Using Given Albhabet]() | [Python](./python/medium/check_words_sorted.py) | Medium |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./python/medium/find_all_duplicates.py) | Medium |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python](./python/medium/surrounded_regions.py) | Medium |
 | 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Python](./python/medium/friend_circles.py) | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./python/medium/array_product.py) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./python/medium/longest_non_repeating_substring.py) | Medium |
@@ -27,6 +28,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 |  | [One Edit Distance]() | [Python](./python/medium/one_edit_distance.py) | Medium |
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./python/medium/make_valid_parentheses.py) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./python/medium/longest_palindromic_substring.py) | Medium |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./python/medium/gen_parentheses.py) | Medium |
 | 1222 | [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [Python](./python/medium/attacking_queens.py) | Medium |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./python/medium/minimum_timediff.py) | Medium |
 |  | [Count Contiguous Subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
