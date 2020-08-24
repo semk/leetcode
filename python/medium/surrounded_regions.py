@@ -15,7 +15,7 @@
 # X O O X
 # X X O X
 # X O X X
-# After running your function, the board should be:
+# After running your function, the board should be: 
 #
 # X X X X
 # X X X X
@@ -30,9 +30,45 @@
 # horizontally or vertically.
 
 
-
 def SurroundedRegions(grid):
-    pass
+    m, n = len(grid), len(grid[0])
+    for i in range(m):
+        if grid[i][0] == 'O':
+            markBorder(grid, i, 0)
+        if grid[i][n-1] == 'O':
+            markBorder(grid, i, n-1)
+
+    for j in range(n):
+        if grid[0][j] == 'O':
+            markBorder(grid, 0, j)
+        if grid[m-1][j] == 'O':
+            markBorder(grid, m-1, j)
+
+    for i in range(m):
+        for j in range(n):
+            if grid[i][j] == 'O':
+                grid[i][j] = 'X'
+            elif grid[i][j] == '*':
+                grid[i][j] = 'O'
+
+    return grid
+
+
+def markBorder(grid, i, j):
+    if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]):
+        return
+
+    if grid[i][j] == 'O':
+        grid[i][j] = '*'
+
+    if i > 0 and grid[i-1][j] == 'O':
+        markBorder(grid, i-1, j)
+    if i < len(grid) -1 and grid[i+1][j]:
+        markBorder(grid, i+1, j)
+    if j > 0 and grid[i][j+1] == 'O':
+        markBorder(grid, i, j+1)
+    if j < len(grid[0]) - 1 and grid[i][j+1] == 'O':
+        markBorder(grid, i, j-1)
 
 
 if __name__ == '__main__':
