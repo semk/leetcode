@@ -5,7 +5,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./python/medium/path_sum.py) | Medium |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./python/medium/path_sum_ii.py) | Medium |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./python/medium/lru_cache.py) | Medium |
 |  | [Check If Words Are Sorted Using Given Albhabet]() | [Python](./python/medium/check_words_sorted.py) | Medium |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./python/medium/find_all_duplicates.py) | Medium |
@@ -22,6 +22,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./python/medium/find_anagrams.py) | Medium |
 |  | [Reverse Compare]() | [Python](./python/medium/reverse_equal.py) | Medium |
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/medium/sign_counts.py) | Medium |
+| 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Python](./python/medium/path_sum_iii.py) | Medium |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./python/medium/container_with_most_water.py) | Medium |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 |  | [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |

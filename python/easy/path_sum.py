@@ -52,10 +52,10 @@ def HasPathSum(root, req_sum):
         node, current_sum = stack.pop()
         if not node.left and not node.right and current_sum == req_sum:
             return True
-        if node.left:
-            stack.append((node.left, current_sum + node.left.value))
         if node.right:
             stack.append((node.right, current_sum + node.right.value))
+        if node.left:
+            stack.append((node.left, current_sum + node.left.value))
 
     return False
 
