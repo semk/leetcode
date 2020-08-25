@@ -43,14 +43,12 @@ def findPaths(node, req_sum, current_sum, total, lookup):
         return total
 
     current_sum += node.value
-    print(current_sum)
     total += lookup.get(current_sum, 0)
     if current_sum+req_sum in lookup:
         lookup[current_sum+req_sum] += 1
     else:
         lookup[current_sum+req_sum] = 1
 
-    print(lookup)
     total = findPaths(node.left, req_sum, current_sum, total, lookup)
     total = findPaths(node.right, req_sum, current_sum, total, lookup)
 
