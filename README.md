@@ -16,6 +16,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./python/medium/longest_repeating_substring_rep.py) | Medium |
 |  | [Evaluate Arithmetic Expression]() | [Python](./python/medium/evaluate_arithmetic_expression.py) | Medium |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](./python/medium/find_duplicate.py) | Medium |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./python/medium/add_two_numbers.py) | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./python/medium/rotate_image.py) | Medium |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./python/medium/partition_labels.py) | Medium |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Python](./python/medium/max_width_btree.py) | Medium |
