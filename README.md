@@ -31,6 +31,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./python/medium/gen_parentheses.py) | Medium |
 | 1222 | [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [Python](./python/medium/attacking_queens.py) | Medium |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./python/medium/minimum_timediff.py) | Medium |
+| 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Python](./python/hard/smaller_numbers_after_self.py) | Hard |
 |  | [Count Contiguous Subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/hard/sign_counts.py) | Hard |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./python/hard/edit_distance.py) | Hard |
