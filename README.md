@@ -14,6 +14,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./python/medium/array_product.py) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./python/medium/longest_non_repeating_substring.py) | Medium |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./python/medium/longest_repeating_substring_rep.py) | Medium |
+|  | [Quicksort]() | [Python](./python/medium/quicksort.py) | Medium |
 |  | [Evaluate Arithmetic Expression]() | [Python](./python/medium/evaluate_arithmetic_expression.py) | Medium |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](./python/medium/find_duplicate.py) | Medium |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./python/medium/add_two_numbers.py) | Medium |
@@ -33,16 +34,17 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./python/medium/gen_parentheses.py) | Medium |
 | 1222 | [Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [Python](./python/medium/attacking_queens.py) | Medium |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./python/medium/minimum_timediff.py) | Medium |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./python/hard/longest_consecutive_sequence.py) | Hard |
 | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Python](./python/hard/smaller_numbers_after_self.py) | Hard |
 |  | [Count Contiguous Subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/hard/sign_counts.py) | Hard |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./python/hard/edit_distance.py) | Hard |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./python/easy/path_sum.py) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./python/easy/max_profit.py) | Easy |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [Python](./python/easy/longest_continous_sequence.py) | Easy |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Python](./python/easy/house_robber.py) | Easy |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./python/easy/count_and_say.py) | Easy |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./python/easy/symmetric_btree.py) | Easy |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [Python](./python/easy/longest_continous_increasing_sequence.py) | Easy |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./python/easy/merge_btrees.py) | Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./python/easy/longest_consecutive_ones_rep.py) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./python/easy/climbing_stairs.py) | Easy |

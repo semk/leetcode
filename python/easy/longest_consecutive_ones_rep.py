@@ -50,3 +50,14 @@ def LongestConsecutiveOnes(nums, rep):
         end += 1
 
     return end - start
+
+
+if __name__ == '__main__':
+    test_cases = [
+        (([1,1,1,0,0,0,1,1,1,1,0], 2), 6),
+        (([0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3), 10)
+    ]
+
+    for inp, res in test_cases:
+        nums, rep = inp
+        assert LongestConsecutiveOnes(nums, rep) == res, 'Test Failed'

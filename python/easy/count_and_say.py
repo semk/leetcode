@@ -43,9 +43,10 @@
 
 def GenSaySeq(limit):
     seq = [1]
-    for _ in range(limit):
-        print(''.join([str(i) for i in seq]))
+    for _ in range(limit-1):
         seq = lookAndSay(seq)
+
+    return ''.join([str(i) for i in seq])
 
 
 def lookAndSay(seq):
@@ -67,3 +68,14 @@ def lookAndSay(seq):
     newSeq = newSeq + [prevCount, prevNum]
 
     return newSeq
+
+
+if __name__ == '__main__':
+    test_cases = [
+        (1, '1'),
+        (4, '1211'),
+        (5, '111221')
+    ]
+
+    for inp, res in test_cases:
+        assert GenSaySeq(inp) == res, 'Test Failed'

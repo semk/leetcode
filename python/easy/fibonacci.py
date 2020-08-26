@@ -34,3 +34,17 @@ def Fibonacci(n):
         cur, nxt = nxt, cur + nxt
 
     return cur
+
+
+if __name__ == '__main__':
+    test_cases = [
+        (0, 0),
+        (1, 1),
+        (2, 1),
+        (3, 2),
+        (4, 3),
+        (5, 5)
+    ]
+
+    for inp, res in test_cases:
+        assert Fibonacci(inp) == res, 'Test Failed'

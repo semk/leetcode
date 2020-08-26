@@ -46,3 +46,13 @@ def RobMaxMoney(houses):
         prevMax, curMax = curMax, max(curMax, houseAmt + prevMax)
 
     return curMax
+
+
+if __name__ == '__main__':
+    test_cases = [
+        ([1,2,3,1], 4),
+        ([2,7,9,3,1], 12)
+    ]
+
+    for inp, res in test_cases:
+        assert RobMaxMoney(inp) == res, 'Test Failed'

@@ -23,23 +23,13 @@
 # Note: Length of the array will not exceed 10,000.
 
 
-def LongestSequenceLen(numbers):
-    if not numbers:
-        return 0
-    
-    uniqueNumbers = set()
-    for num in numbers:
-        uniqueNumbers.add(num)
+def LongestContinuousIncreasingSequence(numbers):
+    result = 0
+    anchor = 0
 
-    longestSeqLen = 1
-    for currentNum in numbers:
-        currentSeqLen = 1
-        # Check if this number is the lowest in the sequence
-        if currentNum-1 not in uniqueNumbers:
-            # Now look only for increments
-            while currentNum+1 in uniqueNumbers:
-                currentSeqLen += 1
-                currentNum += 1
-            longestSeqLen = max(longestSeqLen, currentSeqLen)
+    for i in range(len(numbers)):
+        if i > 0 and numbers[i-1] >= numbers[i]:
+            anchor = i
+        result = max(result, i - anchor + 1)
 
-    return longestSeqLen
+    return result

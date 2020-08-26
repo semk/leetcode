@@ -43,25 +43,25 @@
 
 
 def MakeValidParentheses(expr):
-    opens = 0
+    extra_opens = 0
     updated_expr = ''
 
     # Removes extra closing parentheses
     for c in expr:
         if c == '(':
-            opens += 1
+            extra_opens += 1
         elif c == ')':
-            if opens == 0:
+            if extra_opens == 0:
                 continue
-            opens -= 1
+            extra_opens -= 1
 
         updated_expr += c
 
     valid_expr = ''
     # Removes extra opening parentheses
     for c in reversed(updated_expr):
-        if c == '(' and opens > 0:
-            opens -= 1
+        if c == '(' and extra_opens > 0:
+            extra_opens -= 1
             continue
         
         valid_expr += c

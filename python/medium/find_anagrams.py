@@ -52,16 +52,16 @@ def FindAnagrams(text, anagram):
     anagramStartIndices = []
     
     while end < len(text):
-        if charCounts[ord(text[end])] > 0:
-            charCounts[ord(text[end])] -= 1
+        if charCounts[ord(text[end]) - ord('a')] > 0:
+            charCounts[ord(text[end]) - ord('a')] -= 1
             end += 1
             count -= 1
 
         if count == 0:
             anagramStartIndices.append(start)
 
-        if end - start == len(anagram) and charCounts[ord(text[start])] >= 0:
-            charCounts[ord(text[start])] +=1
+        if end - start == len(anagram) and charCounts[ord(text[start]) - ord('a')] >= 0:
+            charCounts[ord(text[start]) - ord('a')] += 1
             start += 1
             count += 1
 
