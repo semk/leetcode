@@ -14,7 +14,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./python/medium/array_product.py) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./python/medium/longest_non_repeating_substring.py) | Medium |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./python/medium/longest_repeating_substring_rep.py) | Medium |
-|  | [Quicksort]() | [Python](./python/medium/quicksort.py) | Medium |
+| 912 | [Sort an Array - Quicksort](https://leetcode.com/problems/sort-an-array/) | [Python](./python/medium/quicksort.py) | Medium |
 |  | [Evaluate Arithmetic Expression]() | [Python](./python/medium/evaluate_arithmetic_expression.py) | Medium |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [Python](./python/medium/permutations.py) | Medium |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](./python/medium/find_duplicate.py) | Medium |
@@ -30,6 +30,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 |  | [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |
 |  | [One Edit Distance]() | [Python](./python/medium/one_edit_distance.py) | Medium |
+| 912 | [Sort an Array - Meregesort](https://leetcode.com/problems/sort-an-array/) | [Python](./python/medium/mergesort.py) | Medium |
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./python/medium/make_valid_parentheses.py) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./python/medium/longest_palindromic_substring.py) | Medium |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./python/medium/gen_parentheses.py) | Medium |

@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 #
-# description: Quicksort
+# description: Sort an Array - Quicksort
 # difficulty: Medium
-# leetcode_num:
-# leetcode_url:
+# leetcode_num: 912
+# leetcode_url: https://leetcode.com/problems/sort-an-array/
 
 
 def partition(arr, left, right):
