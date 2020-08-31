@@ -30,7 +30,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 |  | [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |
 |  | [One Edit Distance]() | [Python](./python/medium/one_edit_distance.py) | Medium |
-| 912 | [Sort an Array - Meregesort](https://leetcode.com/problems/sort-an-array/) | [Python](./python/medium/mergesort.py) | Medium |
+| 912 | [Sort an Array - Mergesort](https://leetcode.com/problems/sort-an-array/) | [Python](./python/medium/mergesort.py) | Medium |
 | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./python/medium/make_valid_parentheses.py) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./python/medium/longest_palindromic_substring.py) | Medium |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./python/medium/gen_parentheses.py) | Medium |
