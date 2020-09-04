@@ -55,20 +55,15 @@ def SurroundedRegions(grid):
 
 
 def markBorder(grid, i, j):
-    if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]):
+    if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] != 'O':
         return
 
-    if grid[i][j] == 'O':
-        grid[i][j] = '*'
+    grid[i][j] = '*'
 
-    if i > 0 and grid[i-1][j] == 'O':
-        markBorder(grid, i-1, j)
-    if i < len(grid)-1 and grid[i+1][j] == 'O':
-        markBorder(grid, i+1, j)
-    if j > 0 and grid[i][j-1] == 'O':
-        markBorder(grid, i, j-1)
-    if j < len(grid[0])-1 and grid[i][j+1] == 'O':
-        markBorder(grid, i, j+1)
+    markBorder(grid, i-1, j)
+    markBorder(grid, i+1, j)
+    markBorder(grid, i, j-1)
+    markBorder(grid, i, j+1)
 
 
 if __name__ == '__main__':
