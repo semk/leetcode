@@ -63,12 +63,12 @@ def markBorder(grid, i, j):
 
     if i > 0 and grid[i-1][j] == 'O':
         markBorder(grid, i-1, j)
-    if i < len(grid)-1 and grid[i+1][j]:
+    if i < len(grid)-1 and grid[i+1][j] == 'O':
         markBorder(grid, i+1, j)
-    if j > 0 and grid[i][j+1] == 'O':
-        markBorder(grid, i, j+1)
-    if j < len(grid[0])-1 and grid[i][j+1] == 'O':
+    if j > 0 and grid[i][j-1] == 'O':
         markBorder(grid, i, j-1)
+    if j < len(grid[0])-1 and grid[i][j+1] == 'O':
+        markBorder(grid, i, j+1)
 
 
 if __name__ == '__main__':
@@ -83,6 +83,18 @@ if __name__ == '__main__':
             ['X', 'X', 'X', 'X'],
             ['X', 'X', 'X', 'X'],
             ['X', 'X', 'X', 'X'],
+            ['X', 'O', 'X', 'X'],
+        ]),
+        ([
+            ['X', 'X', 'X', 'X'],
+            ['X', 'O', 'O', 'O'],
+            ['X', 'X', 'O', 'X'],
+            ['X', 'O', 'X', 'X'],
+        ],
+        [
+            ['X', 'X', 'X', 'X'],
+            ['X', 'O', 'O', 'O'],
+            ['X', 'X', 'O', 'X'],
             ['X', 'O', 'X', 'X'],
         ])
     ]
