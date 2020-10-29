@@ -73,12 +73,10 @@ def addToBST(root, node):
     return count
 
 
-
 if __name__ == '__main__':
     test_cases = [
         ([5, 2, 6, 1], [2, 1, 1, 0])
     ]
 
     for nums, res in test_cases:
-        print(CountSmaller(nums))
         assert CountSmaller(nums) == res, 'Test Failed'

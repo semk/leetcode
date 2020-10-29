@@ -31,6 +31,7 @@ def CalculateMaxProfit(prices):
     low = prices[0]
     high = prices[0]
     maxProfit = 0
+
     for currentPrice in prices:
         if currentPrice - low > maxProfit:
             maxProfit = currentPrice - low

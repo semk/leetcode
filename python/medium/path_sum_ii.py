@@ -83,8 +83,8 @@ if __name__ == '__main__':
 
     test_cases = [
         (([(True, 5), (True, 4), (True, 8), (True, 11), (False, -1), (True, 13), (True, 4), (True, 7),
-           (True, 2), (False, -1), (False, -1), (False, -1), (False, -1), (True, 5), (True, 1)], 22), 
-           [[5, 4, 11, 2], [5, 8, 4, 5]])
+           (True, 2), (False, -1), (False, -1), (False, -1), (False, -1), (True, 5), (True, 1)], 22),
+         [[5, 4, 11, 2], [5, 8, 4, 5]])
     ]
 
     for tc, res in test_cases:
