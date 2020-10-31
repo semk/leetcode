@@ -22,10 +22,53 @@
 #   "...Q",
 #   "Q...",
 #   "..Q."],
-
+#
 #  ["..Q.",  // Solution 2
 #   "Q...",
 #   "...Q",
 #   ".Q.."]
 # ]
 # Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
+
+
+import pprint
+
+
+def PlaceNQueens(size):
+    colPlacements = []
+    solveNQueens(size, 0, colPlacements)
+
+    # Generate the size*size board with queens placed.
+    board = [['.' for _ in range(size)] for _ in range(size)]
+    for row, col in zip(range(size), colPlacements):
+        board[row][col] = 'Q'
+
+    return board
+
+
+def solveNQueens(size, row, colPlacements,):
+    if row == size:
+        return True
+    else:
+        for col in range(size):
+            colPlacements.append(col)
+            if isValid(colPlacements):
+                if solveNQueens(size, row+1, colPlacements):
+                    return True
+            colPlacements.pop()
+
+    return False
+
+
+def isValid(colPlacements):
+    rowId = len(colPlacements) - 1
+    for i in range(rowId):
+        diff = abs(colPlacements[i] - colPlacements[rowId])
+        if diff == 0 or diff == rowId-i:
+            return False
+
+    return True
+
+
+if __name__ == '__main__':
+    pprint.pprint(PlaceNQueens(6))
