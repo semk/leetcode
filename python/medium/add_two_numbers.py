@@ -83,6 +83,7 @@ if __name__ == '__main__':
 
     test_cases = [
         ([2, 4, 3], [5, 6, 4], [7, 0, 8]),
+        ([4, 7], [5, ], [9, 7]),
     ]
 
     for l1, l2, res in test_cases:

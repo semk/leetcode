@@ -26,6 +26,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/medium/sign_counts.py) | Medium |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Python](./python/medium/path_sum_iii.py) | Medium |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./python/medium/container_with_most_water.py) | Medium |
+| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | [Python](./python/medium/count_squares.py) | Medium |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 |  | [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |
 | 640 | [One Edit Distance](https://www.lintcode.com/problem/one-edit-distance/description) | [Python](./python/medium/one_edit_distance.py) | Medium |
