@@ -19,20 +19,22 @@
 # Note: Please solve it without division and in O(n).
 
 
-def ArrayProduct(array):
-    arrayLen = len(array)
+def ArrayProduct(nums):
+    res = []
+    prod_left = 1
+    for num in nums:
+        res.append(prod_left)
+        prod_left = prod_left * num
 
-    leftProduct = [1] * arrayLen
-    rightProduct = [1] * arrayLen
+    prod_right = 1
+    for i in range(len(nums)-1, -1, -1):
+        res[i] = res[i] * prod_right
+        prod_right *= nums[i]
 
-    for index in range(arrayLen - 1):
-        rightIndex = arrayLen - 1 - index
-        leftProduct[index+1] = leftProduct[index] * array[index]
-        rightProduct[rightIndex-1] = rightProduct[rightIndex] * \
-            array[rightIndex]
+    return res
 
-    productArray = []
-    for index in range(arrayLen):
-        productArray.append(leftProduct[index] * rightProduct[index])
 
-    return productArray
+if __name__== '__main__':
+    assert ArrayProduct([1, 2, 3, 4]) == [24, 12, 8, 6], 'Test Failed'
+    assert ArrayProduct([]) == [], 'Test Failed'
+    assert ArrayProduct([2]) == [1], 'Test Failed'
