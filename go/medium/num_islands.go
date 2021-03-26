@@ -53,9 +53,9 @@ func expandIsland(grid [][]byte, i, j int) {
 		return
 	}
 	grid[i][j] = '0'
-	// expandIsland(grid, i-1, j) // top expansion
+	expandIsland(grid, i-1, j) // top expansion
 	expandIsland(grid, i+1, j) // bottom expansion
-	// expandIsland(grid, i, j-1) // left expansion
+	expandIsland(grid, i, j-1) // left expansion
 	expandIsland(grid, i, j+1) // right expansion
 }
 
