@@ -61,6 +61,6 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./python/easy/invert_btree.py) | Easy |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./python/easy/fibonacci.py) | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](./go/medium/num_islands.go) | Medium |
-|  | [RMQSQ - Range Minimum Query](https://www.spoj.com/problems/RMQSQ/) | [Go](./go/medium/range_min_query.go) | Medium |
+|  | [RMQSQ - Range Minimum Query](https://www.spoj.com/problems/RMQSQ/) | [Go](./go/hard/range_min_query.go) | Hard |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Go](./go/easy/reverse_ll.go) | Easy |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Go](./go/easy/pascal_triangle.go) | Easy |
