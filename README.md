@@ -21,6 +21,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./python/medium/rotate_image.py) | Medium |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./python/medium/partition_labels.py) | Medium |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Python](./python/medium/max_width_btree.py) | Medium |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Python](./python/medium/single_number_ii.py) | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./python/medium/find_anagrams.py) | Medium |
 |  | [Reverse Compare]() | [Python](./python/medium/reverse_equal.py) | Medium |
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/medium/sign_counts.py) | Medium |
@@ -60,6 +61,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./python/easy/climbing_stairs.py) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./python/easy/invert_btree.py) | Easy |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./python/easy/fibonacci.py) | Easy |
+| 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./python/easy/toeplitz.py) | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](./go/medium/num_islands.go) | Medium |
 |  | [RMQSQ - Range Minimum Query](https://www.spoj.com/problems/RMQSQ/) | [Go](./go/hard/range_min_query.go) | Hard |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Go](./go/easy/reverse_ll.go) | Easy |

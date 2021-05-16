@@ -30,15 +30,14 @@ def IsSymmetric(root):
     return isMirror(root, root)
 
 
-def isMirror(tree1, tree2):
-    if tree1 == None and tree2 == None:
+def isMirror(node1, node2):
+    if node1 == None and node2 == None:
         return True
-    if tree1 == None or tree2 == None:
+
+    if node1 == None or node2 == None:
         return False
 
-    if tree1.data != tree2.data:
+    if node1.data != node2.data:
         return False
 
-    isLeftSymmetric = isMirror(tree1.left, tree2.right)
-    isRightSymmetric = isMirror(tree1.right, tree2.left)
-    return isLeftSymmetric and isRightSymmetric
+    return isMirror(node1.left, node2.right) and isMirror(node1.right, node2.left)
