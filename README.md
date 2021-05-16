@@ -3,8 +3,8 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 
 ### Problems & Solutions
 
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
+| # | Problem | Solution | Difficulty |
+|---| ------- | -------- | ---------- |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./python/medium/path_sum_ii.py) | Medium |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./python/medium/lru_cache.py) | Medium |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./python/medium/find_all_duplicates.py) | Medium |

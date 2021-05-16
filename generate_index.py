@@ -53,8 +53,8 @@ def parse_metadata(path, lang):
 
 def populate_table(metadata, readme):
     readme.append('\n')
-    readme.append('| # | Title | Solution | Difficulty |\n')
-    readme.append('|---| ----- | -------- | ---------- |\n')
+    readme.append('| # | Problem | Solution | Difficulty |\n')
+    readme.append('|---| ------- | -------- | ---------- |\n')
     
     for lang, level_info in metadata.items():
         for level, problems in level_info.items():
