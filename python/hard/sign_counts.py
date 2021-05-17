@@ -71,6 +71,49 @@ def FindSignatureCountsUF(bookHolders):
     return signCounts
 
 
+# O(n^2) solution (brute-force)
+def FindSignatureCountsBF(bookHolders):
+    signCounts = [1] * len(bookHolders)
+    for student in bookHolders:
+        studentIndex = student - 1
+        while bookHolders[studentIndex] != student:
+            signCounts[studentIndex] += 1
+            studentIndex = bookHolders[studentIndex] - 1
+
+    return signCounts
+
+
+# O(n) solution using set
+def FindSignatureCounts(bookHolders):
+    signCounts = [0] * len(bookHolders)
+    rootIndices = [-1] * len(bookHolders)
+    visitedStudents = set()
+    
+    for i, student in enumerate(bookHolders):
+        if student in visitedStudents:
+            continue
+
+        visitedStudents.add(student)
+        # This is the root of the new passing cycle. Count from 1
+        signCounts[i] = 1
+
+        studentIndex = student - 1
+        while bookHolders[studentIndex] != student:
+            # Update the count at root of the cycle
+            signCounts[i] += 1
+            # Refer to the root of the cycle
+            rootIndices[studentIndex] = i
+            studentIndex = bookHolders[studentIndex] - 1
+            visitedStudents.add(bookHolders[studentIndex])
+
+    for i in range(len(bookHolders)):
+        if rootIndices[i] != -1:
+            # Find count from the root of the cycle
+            signCounts[i] = signCounts[rootIndices[i]]
+
+    return signCounts
+
+
 if __name__ == '__main__':
     test_cases = [
         ([3, 2, 4, 1], [3, 1, 3, 3]),
@@ -78,3 +121,5 @@ if __name__ == '__main__':
 
     for pos, res in test_cases:
         assert FindSignatureCountsUF(pos) == res, 'Test Failed'
+        assert FindSignatureCountsBF(pos) == res, 'Test Failed'
+        assert FindSignatureCounts(pos) == res, 'Test Failed'

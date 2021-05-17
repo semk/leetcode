@@ -24,7 +24,6 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Python](./python/medium/single_number_ii.py) | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./python/medium/find_anagrams.py) | Medium |
 |  | [Reverse Compare]() | [Python](./python/medium/reverse_equal.py) | Medium |
-|  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/medium/sign_counts.py) | Medium |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Python](./python/medium/path_sum_iii.py) | Medium |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./python/medium/container_with_most_water.py) | Medium |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | [Python](./python/medium/count_squares.py) | Medium |
