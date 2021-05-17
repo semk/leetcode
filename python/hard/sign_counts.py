@@ -57,6 +57,7 @@ class UF:
         return self.sizes[root]
 
 
+# O(n log n) solution using UnionFind
 def FindSignatureCountsUF(bookHolders):
     numStudents = len(bookHolders)
     uf = UF(numStudents)
@@ -68,3 +69,12 @@ def FindSignatureCountsUF(bookHolders):
         signCounts.append(uf.size(i))
 
     return signCounts
+
+
+if __name__ == '__main__':
+    test_cases = [
+        ([3, 2, 4, 1], [3, 1, 3, 3]),
+    ]
+
+    for pos, res in test_cases:
+        assert FindSignatureCountsUF(pos) == res, 'Test Failed'

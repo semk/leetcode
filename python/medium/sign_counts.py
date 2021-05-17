@@ -27,6 +27,7 @@
 # they receive it back.
 
 
+# O(n^2) solution
 def FindSignatureCounts(bookHolders):
     signCounts = [1] * len(bookHolders)
     for student in bookHolders:
@@ -36,3 +37,12 @@ def FindSignatureCounts(bookHolders):
             studentIndex = bookHolders[studentIndex] - 1
 
     return signCounts
+
+
+if __name__ == '__main__':
+    test_cases = [
+        ([3, 2, 4, 1], [3, 1, 3, 3]),
+    ]
+
+    for pos, res in test_cases:
+        assert FindSignatureCounts(pos) == res, 'Test Failed'
