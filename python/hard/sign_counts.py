@@ -89,27 +89,28 @@ def FindSignatureCounts(bookHolders):
     rootIndices = [-1] * len(bookHolders)
     visitedStudents = set()
     
-    for i, student in enumerate(bookHolders):
+    for idx, student in enumerate(bookHolders):
         if student in visitedStudents:
             continue
 
         visitedStudents.add(student)
         # This is the root of the new passing cycle. Count from 1
-        signCounts[i] = 1
+        signCounts[idx] = 1
+        nextIdx = student - 1
 
-        studentIndex = student - 1
-        while bookHolders[studentIndex] != student:
+        # Loop till we complete the cycle
+        while nextIdx != idx:
             # Update the count at root of the cycle
-            signCounts[i] += 1
+            signCounts[idx] += 1
             # Refer to the root of the cycle
-            rootIndices[studentIndex] = i
-            studentIndex = bookHolders[studentIndex] - 1
-            visitedStudents.add(bookHolders[studentIndex])
+            rootIndices[nextIdx] = idx
+            nextIdx = bookHolders[nextIdx] - 1
+            visitedStudents.add(bookHolders[nextIdx])
 
-    for i in range(len(bookHolders)):
-        if rootIndices[i] != -1:
+    for idx in range(len(bookHolders)):
+        if rootIndices[idx] != -1:
             # Find count from the root of the cycle
-            signCounts[i] = signCounts[rootIndices[i]]
+            signCounts[idx] = signCounts[rootIndices[idx]]
 
     return signCounts
 
