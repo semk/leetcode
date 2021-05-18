@@ -39,6 +39,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./python/hard/merge_k_sorted_lists.py) | Hard |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./python/hard/longest_consecutive_sequence.py) | Hard |
 | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Python](./python/hard/smaller_numbers_after_self.py) | Hard |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./python/hard/word_ladder.py) | Hard |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./python/hard/median_sorted_arrays.py) | Hard |
 |  | [Count Contiguous Subarrays](https://leetcode.com/discuss/interview-question/579606/count-contiguous-subarrays) | [Python](./python/hard/contiguous_subarray_count.py) | Hard |
 |  | [Passing Yearbooks](https://leetcode.com/discuss/interview-question/614096/facebook-interview-preparation-question-passing-yearbooks) | [Python](./python/hard/sign_counts.py) | Hard |
