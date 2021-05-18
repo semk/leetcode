@@ -5,10 +5,11 @@
 
 
 import glob
+from collections import OrderedDict
 
 # Path to README.md file
 README = 'README.md'
-TEMP_README='README.tmp.md'
+TEMP_README = 'README.tmp.md'
 # Section to be filled in README.md
 README_HEADER = "### Problems & Solutions"
 
@@ -53,20 +54,27 @@ def parse_metadata(path, lang):
 
 def populate_table(metadata, readme):
     readme.append('\n')
-    readme.append('| # | Problem | Solution | Difficulty |\n')
-    readme.append('|---| ------- | -------- | ---------- |\n')
-    
+    readme.append('| Problem | Solution | Difficulty |\n')
+    readme.append('| ------- | -------- | ---------- |\n')
+
+    total = {EASY: 0, MEDIUM: 0, HARD: 0}
     for lang, level_info in metadata.items():
         for level, problems in level_info.items():
             for problem in problems:
-                data = '| {} | [{}]({}) | [{}]({}) | {} |'.format(
-                    problem.get('leetcode_num', 'undefined'),
+                data = '[{}]({}) | [{}]({}) | {} |'.format(
                     problem.get('description', 'undefined'),
                     problem.get('leetcode_url', 'undefined'),
                     lang.title(), problem.get('path', 'undefined'),
                     level.title(),
                 )
                 readme.append(data + '\n')
+                total[level] += 1
+
+    readme.append(
+        "\nThis repository currently hosts a total of {} solutions ({} Easy, {} Medium, {} Hard). \n".format(
+            sum(total.values()), total[EASY], total[MEDIUM], total[HARD]
+        )
+    )
 
 
 def generate():
@@ -77,7 +85,7 @@ def generate():
             if line.startswith(README_HEADER):
                 break
 
-    solutions = {}
+    solutions = OrderedDict()
     for lang in LANGS:
         for level in LEVELS:
             for path in glob.glob('./{}/{}/*{}'.format(lang, level, EXT[lang])):
@@ -85,7 +93,8 @@ def generate():
                 metadata['path'] = path
                 metadata['lang'] = lang
                 metadata['difficulty'] = level
-                solutions.setdefault(lang, {}).setdefault(level, []).append(metadata)
+                solutions.setdefault(lang, OrderedDict()).setdefault(
+                    level, []).append(metadata)
 
     populate_table(solutions, readme)
 
