@@ -11,6 +11,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python](./python/medium/surrounded_regions.py) | Medium |
 | 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Python](./python/medium/friend_circles.py) | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./python/medium/array_product.py) | Medium |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./python/medium/3sum_closest.py) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./python/medium/longest_non_repeating_substring.py) | Medium |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./python/medium/longest_repeating_substring_rep.py) | Medium |
 | 912 | [Sort an Array - Quicksort](https://leetcode.com/problems/sort-an-array/) | [Python](./python/medium/quicksort.py) | Medium |
@@ -57,6 +58,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./python/easy/alien_dictionary.py) | Easy |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [Python](./python/easy/longest_continous_increasing_sequence.py) | Easy |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./python/easy/merge_btrees.py) | Easy |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./python/easy/first_unique_char.py) | Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./python/easy/longest_consecutive_ones_rep.py) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./python/easy/climbing_stairs.py) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./python/easy/invert_btree.py) | Easy |
