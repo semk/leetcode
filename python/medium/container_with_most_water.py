@@ -42,5 +42,10 @@ def ContainerWithMostWater(heights):
 
 
 if __name__ == '__main__':
-    heights = [1,8,6,2,5,4,8,3,7]
-    assert ContainerWithMostWater(heights) == 49, "Test Failed"
+    test_cases = [
+        ([1, 8, 6, 2, 5, 4, 8, 3, 7], 49),
+        ([2, 1, 5, 6, 2, 3], 10)
+    ]
+
+    for inp, res in test_cases:
+        assert ContainerWithMostWater(inp) == res, 'Test Failed'

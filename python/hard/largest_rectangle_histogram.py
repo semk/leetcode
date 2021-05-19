@@ -16,3 +16,32 @@
 # Example:
 # Input: [2,1,5,6,2,3]
 # Output: 10
+
+
+def LargestRectangle(histogram):
+    start = 0
+    end = len(histogram) - 1
+    max_vol = 0
+
+    while end > start:
+        width = end - start
+        if histogram[start] > histogram[end]:
+            height = histogram[end]
+            end -= 1
+        else:
+            height = histogram[start]
+            start += 1
+
+        max_vol = max(max_vol, height * width)
+
+    return max_vol
+
+
+if __name__ == '__main__':
+    test_cases = [
+        ([1, 8, 6, 2, 5, 4, 8, 3, 7], 49),
+        ([2, 1, 5, 6, 2, 3], 10)
+    ]
+
+    for inp, res in test_cases:
+        assert LargestRectangle(inp) == res, 'Test Failed'
