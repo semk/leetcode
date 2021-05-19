@@ -30,3 +30,40 @@
 #
 # Input: lists = [[]]
 # Output: []
+
+
+from heapq import heappush, heappop
+
+
+# n: total number of elements in all lists. k: total number of lists
+# Time Complexity: O(n log k)
+# Space Complexity: O(log k)
+def MergeKSortedLists(lists):
+    result = []
+    heap = []
+
+    # Push first item of each list to the min-heap
+    for i, l in enumerate(lists):
+        if len(l) > 0:
+            # Store the element along with it's position
+            heappush(heap, (l[0], (i, 0)))
+
+    while len(heap) != 0:
+        num, pos = heappop(heap)
+        result.append(num)
+        i, j = pos
+        if j < len(lists[i])-1:
+            heappush(heap, (lists[i][j+1], (i, j+1)))
+
+    return result
+
+
+if __name__ == '__main__':
+    test_cases = [
+        ([[1, 4, 5], [1, 3, 4], [2, 6]], [1, 1, 2, 3, 4, 4, 5, 6]),
+        ([], []),
+        ([[]], [])
+    ]
+
+    for inp, res in test_cases:
+        assert MergeKSortedLists(inp) == res, 'Test Failed'
