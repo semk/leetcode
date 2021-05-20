@@ -45,6 +45,7 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./python/medium/spiral_matrix.py) | Medium |
 [Matrix Multiplication]() | [Python](./python/medium/multiply_matrices.py) | Medium |
 [One Edit Distance](https://www.lintcode.com/problem/one-edit-distance/description) | [Python](./python/medium/one_edit_distance.py) | Medium |
+[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](./python/medium/rotting_oranges.py) | Medium |
 [Sort an Array - Mergesort](https://leetcode.com/problems/sort-an-array/) | [Python](./python/medium/mergesort.py) | Medium |
 [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./python/medium/make_valid_parentheses.py) | Medium |
 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./python/medium/longest_palindromic_substring.py) | Medium |
@@ -69,4 +70,4 @@ Solutions to the various *leetcode* coding problems (algorithms &amp; data struc
 [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](./go/medium/num_islands.go) | Medium |
 [RMQSQ - Range Minimum Query](https://www.spoj.com/problems/RMQSQ/) | [Go](./go/hard/range_min_query.go) | Hard |
 
-This repository currently hosts a total of 63 solutions (16 Easy, 33 Medium, 14 Hard). 
+This repository currently hosts a total of 64 solutions (16 Easy, 34 Medium, 14 Hard). 
